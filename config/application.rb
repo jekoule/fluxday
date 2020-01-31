@@ -32,6 +32,9 @@ module Fluxday
 
       # Only Authorized Applications
       Doorkeeper::AuthorizedApplicationsController.layout "doorkeeper"
+      
+    config.i18n.default_locale = :fr
+
     end
   end
 end
